@@ -4,15 +4,15 @@
 
 class VooView :
 
-    def obterDados() :
+    def obterDados( self ) :
         print( '===> Cadastro de Voo')
         numero = input( 'Número do voo: ')
-        preco = float( input('Preço da passagem:' ) )
+        preco = float( input('Preço da passagem: ' ) )
         origem = input( 'Aeroporto de Origem: ')
         destino = input( 'Aeroporto de Destino: ')
         partida = input( 'Hora de Partida: ')
         chegada = input( 'Hora de Chegada: ')
-        lugares = int( input('Quantidade de lugares:' ) )
+        lugares = int( input('Quantidade de lugares: ' ) )
 
         return { 
             'numero' : numero, 
